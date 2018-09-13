@@ -1,5 +1,9 @@
 # Estação Meteorológica - Sistemas Embarcados
 
+## Pendente
+- Como carregar a bateria com placa fotovoltáica?
+- Formato do Documento de Descrição Funcional
+
 ## Escopo
 - Sistema de análise meteorológica
 - Medir temperatura
@@ -19,7 +23,7 @@
 - Sistema deve exibir valores de medição
 - Sistema deve fazer média de leituras em cada hora
 - Registrar tempo de luminosidade
-
+- Deve ter sinalização em função da altura
 
 ## Requisitos não funcionais
 - Sistema deve ter bateria
@@ -27,7 +31,6 @@
 - Sistema terá acionamento para o bluetooth - diminuir consumo
 - Sistema deve ter gráfico com 24 pontos
 - Será um aplicativo android
-- 
 
 ## Interface usuário
 - Como conectar bluetooth com celular
@@ -37,9 +40,11 @@
 ### Hardware
 - M4 (ARM) 
 - LDR (analog) 
-- DHT11 (serial) (http://www.ocfreaks.com/basics-interfacing-dht11-dht22-humidity-temperature-sensor-mcu/)
+- DHT11 (serial) [Protocolo](http://www.ocfreaks.com/basics-interfacing-dht11-dht22-humidity-temperature-sensor-mcu/)
 - Bluetooth HC05 (serial)
-- Bmp180 (i2c) (https://learn.sparkfun.com/tutorials/bmp180-barometric-pressure-sensor-hookup-)
+- Bmp180 (i2c) [Protolo](https://learn.sparkfun.com/tutorials/bmp180-barometric-pressure-sensor-hookup-)
+- Bateria 9V (com regulador)
+- Placa fotovoltáica
 
 ### Software
 - Android
@@ -55,21 +60,20 @@
 
 ## Comentários
 
+### Caso escolhido
 Caso 1: Estação meteorológica  que deverá fornecer os  dados de:
 
 temperatura - LM35 (DHT11)
 umidade relativa - DHT11
 radiação solar - LDR 
-pressão atmosférica - Sensor Pressão Atmosférica Barômetro Bmp180 Arduino / Pic
-horas de radiação solar por dia - 
+pressão atmosférica - Sensor Pressão Atmosférica Barômetro Bmp180 Arduino / Pic 
+horas de radiação solar por dia
 
-A estação deverá funcionar continuamente, sua instalação não ficará próxima 
-a alguma fonte de alimentação. 
-Bateria + Placa Solar
+A estação deverá funcionar continuamente, sua instalação não ficará próxima a alguma fonte de alimentação. 
+- Bateria + Placa Solar
 
-Deverá ser possível acessar as últimas  N medições de alguma forma  fácil e 
-amigável ao usuário leigo.
-Módulo bluetooth para conectar
+Deverá ser possível acessar as últimas  N medições de alguma forma  fácil e amigável ao usuário leigo.
+- Módulo bluetooth para conectar
 
 Qual a melhor forma de amostrar? 
 - Ler sobre estações meteorológicas e frequência de medição
