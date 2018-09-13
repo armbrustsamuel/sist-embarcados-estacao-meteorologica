@@ -67,11 +67,11 @@
 ### Caso escolhido
 Caso 1: Estação meteorológica  que deverá fornecer os  dados de:
 
-temperatura - LM35 (DHT11)
-umidade relativa - DHT11
-radiação solar - LDR 
-pressão atmosférica - Sensor Pressão Atmosférica Barômetro Bmp180 Arduino / Pic 
-horas de radiação solar por dia
+- temperatura - LM35 (DHT11)
+- umidade relativa - DHT11
+- radiação solar - LDR 
+- pressão atmosférica - Sensor Pressão Atmosférica Barômetro Bmp180 Arduino / Pic 
+- horas de radiação solar por dia
 
 A estação deverá funcionar continuamente, sua instalação não ficará próxima a alguma fonte de alimentação. 
 - Bateria + Placa Solar
