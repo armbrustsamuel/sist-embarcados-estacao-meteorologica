@@ -5,6 +5,7 @@
 - Formato do Documento de Descrição Funcional
 
 ## Escopo
+- Produto deve ser o mais próxima da produção
 - Sistema de análise meteorológica
 - Medir temperatura
 - Medir luminosidade
@@ -40,9 +41,9 @@
 ### Hardware
 - M4 (ARM) 
 - LDR (analog) 
-- DHT11 (serial) [Protocolo](http://www.ocfreaks.com/basics-interfacing-dht11-dht22-humidity-temperature-sensor-mcu/)
+- DHT11 (serial) [Documentação Protocolo](http://www.ocfreaks.com/basics-interfacing-dht11-dht22-humidity-temperature-sensor-mcu/)
 - Bluetooth HC05 (serial)
-- Bmp180 (i2c) [Protolo](https://learn.sparkfun.com/tutorials/bmp180-barometric-pressure-sensor-hookup-)
+- Bmp180 (i2c) [Documentação Protolo](https://learn.sparkfun.com/tutorials/bmp180-barometric-pressure-sensor-hookup-)
 - Bateria 9V (com regulador)
 - Placa fotovoltáica
 
@@ -57,6 +58,9 @@
 - Levantamento dos requisitos funcionais e não funcionais - Revisar
 - Estudo do particionamento HW/SW - 
 - Estudo da metodologia de projeto que será empregada para desenvolver o sistema embarcado
+
+## Metodologia de Projeto
+- 
 
 ## Comentários
 
