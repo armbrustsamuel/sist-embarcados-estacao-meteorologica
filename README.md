@@ -3,6 +3,8 @@
 ## Pendente
 - Como carregar a bateria com placa fotovoltáica?
 - Formato do Documento de Descrição Funcional
+- De quanto em quanto tempo trocar bateria 
+1. definição de consumo
 
 ## Escopo
 - Produto deve ser o mais próxima da produção
@@ -45,7 +47,7 @@
 - Bluetooth HC05 (serial)
 - Bmp180 (i2c) [Documentação Protolo](https://learn.sparkfun.com/tutorials/bmp180-barometric-pressure-sensor-hookup-)
 - Bateria 9V (com regulador)
-- Placa fotovoltáica
+- Bateria de BACKUP
 
 ### Software
 - Android
