@@ -1,5 +1,8 @@
 # Estação Meteorológica - Sistemas Embarcados
 
+## Como usar o git: Em Construção
+[Link](how-to-git.md)
+
 ## Pendente
 - Como carregar a bateria com placa fotovoltáica?
 - Formato do Documento de Descrição Funcional
